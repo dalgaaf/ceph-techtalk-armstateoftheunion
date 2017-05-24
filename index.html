@@ -32,7 +32,13 @@
                  data-separator-notes="^Note:">
         </section>
         <section id="main"
-                 data-markdown="markdown/main.md"
+                 data-markdown="markdown/wdlabs.md"
+                 data-separator="^\n\n\n"
+                 data-separator-vertical="^\n\n"
+                 data-separator-notes="^Note:">
+        </section>
+        <section id="motivatio"
+                 data-markdown="markdown/motivation.md"
                  data-separator="^\n\n\n"
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:">
@@ -98,16 +104,16 @@ for (var i = 0; i < n; i++) {
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-    controls: false,
-    progress: false,
+    controls: true,
+    progress: true,
     history: true,
     center: true,
 
     // Parallax background image
-    parallaxBackgroundImage: 'images/background.jpg',
+    //parallaxBackgroundImage: 'images/background.jpg',
 
     // Parallax background size
-    parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px"
+    //parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px"
 
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
