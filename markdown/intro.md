@@ -1,3 +1,6 @@
-# Intro title
+## Ceph On ARM
 
-Note: Add introductory slides here.
+#### @Deutsche Telekom
+
+[`danny.al-gaaf@bisect.de`](mailto:danny.al-gaaf@bisect.de)
+
