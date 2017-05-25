@@ -68,6 +68,19 @@
 Performance testing
 <!-- .element class="fragment" -->
 
+fio (#clients, iodepth, bs, ...)
+<!-- .element class="fragment" -->
+
+Different replication level, EC
+<!-- .element class="fragment" -->
+
+Different fill level
+<!-- .element class="fragment" -->
+
+
+<!-- Slide -->
+### DT's Tasks and Topics
+
 OPS
 <!-- .element class="fragment" -->
 
