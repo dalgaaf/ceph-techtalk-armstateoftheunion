@@ -71,10 +71,10 @@ Performance testing
 fio (#clients, iodepth, bs, ...)
 <!-- .element class="fragment" -->
 
-Different replication level, EC
+Different replication level, EC, fill level, so far around 1k runs
 <!-- .element class="fragment" -->
 
-Different fill level
+work on a build Luminous for armhf (32bit)
 <!-- .element class="fragment" -->
 
 
